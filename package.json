@@ -32,6 +32,7 @@
     "@nestjsx/crud-typeorm": "^4.4.2",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.12.0-rc.0",
+    "core-util-is": "^1.0.2",
     "mysql": "^2.18.1",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
@@ -39,7 +40,8 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.24",
+    "webpack-dev-server": "^3.10.3"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.0.2",

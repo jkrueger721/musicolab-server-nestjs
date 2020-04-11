@@ -4,8 +4,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
 import { User } from './user/models/user.entity';
-import { Project } from './project/models/project.entity';
-import { ProjectModule } from './project/project.module';
+// import { Project } from './project/models/project.entity';
+// import { ProjectModule } from './project/project.module';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
@@ -17,11 +17,10 @@ import { AuthModule } from './auth/auth.module';
 			username: 'vlnrqiuybsddad4f',
 			password: 'ks7ctg67ci3pyv6u',
 			database: 'dhz1yqlqb67lgsjd',
-			entities: [ User, Project ],
+			entities: [ User ],
 			synchronize: true
 		}),
 		UserModule,
-		ProjectModule,
 		AuthModule
 	],
 	controllers: [ AppController ],
